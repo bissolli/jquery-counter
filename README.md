@@ -1,20 +1,20 @@
-# jQuery Counter Up
-A jQuery plugin to count up a number with start on element visible feature - [DOCS](https://bissolli.github.io/jquery-counter-up/)
+# jQuery Counter
+A jQuery plugin to count up a number with start on element visible feature - [DOCS](https://bissolli.github.io/jquery-counter/)
 
-[![npm](https://img.shields.io/npm/v/jquery-counter-up.svg)](https://www.npmjs.com/package/jquery-counter-up)
-[![npm](https://img.shields.io/npm/dt/jquery-counter-up.svg)](https://www.npmjs.com/package/jquery-counter-up)
-[![npm](https://img.shields.io/npm/l/jquery-counter-up.svg)](https://github.com/bissolli/jquery-counter-up/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/bissolli/jquery-counter-up.svg)](https://github.com/bissolli/jquery-counter-up/stargazers)
-[![gzip size](http://img.badgesize.io/https://unpkg.com/jquery-counter-up?compression=gzip)](https://github.com/bissolli/jquery-counter-up)
+[![npm](https://img.shields.io/npm/v/jquery-counter.svg)](https://www.npmjs.com/package/jquery-counter)
+[![npm](https://img.shields.io/npm/dt/jquery-counter.svg)](https://www.npmjs.com/package/jquery-counter)
+[![npm](https://img.shields.io/npm/l/jquery-counter.svg)](https://github.com/bissolli/jquery-counter/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/bissolli/jquery-counter.svg)](https://github.com/bissolli/jquery-counter/stargazers)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/jquery-counter?compression=gzip)](https://github.com/bissolli/jquery-counter)
 
 ## Getting Started
 
 ### 1. Install package using NPM or download it from the repository;
 ```bash
-npm install jquery-counter-up --save
+npm install jquery-counter --save
 ```
 
-### 2. Require [jQuery](https://jquery.com/) and Counter-Up
+### 2. Require [jQuery](https://jquery.com/) and Counter
 ```html
 <script src="jquery.min.js"></script>
 <script src="jquery.counterup.min.js"></script>
@@ -22,7 +22,7 @@ npm install jquery-counter-up --save
 or
 ```javascript
 require('jquery');
-require('jquery-counter-up');
+require('jquery-counter');
 ```
 
 ### 4. Add data attributes
@@ -36,15 +36,15 @@ Through data properties you can set the following parameters:
 | `duration` | `String` | 3000 | Time (in milliseconds) to count it up
 | `delay` | `String` | 200 | Delay (in milliseconds) to start the animation as per the element becomes visible
 
-### 5. Call Revealer
+### 5. Call Counter
 ```javascript
-$('[data-counter]').counterUp();
+$('[data-counter]').counter();
 ```
 
 
 ## JavaScript Options
 ```javascript
-$('[data-counter]').counterUp({
+$('[data-counter]').counter({
     decimals: 0,
     decPoint: ".",
     thousandsSep: ","
@@ -54,5 +54,5 @@ $('[data-counter]').counterUp({
 
 ## Methods
 ```javascript
-$('[data-counter]').counterUp('bind');
+$('[data-counter]').counter('bind');
 ```

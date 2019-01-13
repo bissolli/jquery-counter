@@ -79,7 +79,7 @@
         }
     };
 
-    jQuery.fn.counterUp = function (options) {
+    jQuery.fn.counter = function (options) {
         options = $.extend({
             decimals: 0,
             decPoint: ".",

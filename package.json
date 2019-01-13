@@ -1,8 +1,8 @@
 {
-  "name": "jquery-counter-up",
+  "name": "jquery-counter",
   "version": "1.0.0",
   "description": "A jQuery plugin to count up a number with start on element visible feature",
-  "main": "dist/jquery.counterup.min.js",
+  "main": "dist/jquery.counter.min.js",
   "tags": [
     "jquery",
     "numbers",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bissolli/jquery-counter-up.git"
+    "url": "git+https://github.com/bissolli/jquery-counter.git"
   },
   "author": "Gustavo Bissolli <gustavo.bissolli@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bissolli/jquery-counter-up/issues"
+    "url": "https://github.com/bissolli/jquery-counter/issues"
   },
-  "homepage": "https://github.com/bissolli/jquery-counter-up#readme",
+  "homepage": "https://github.com/bissolli/jquery-counter#readme",
   "keywords": [
     "jquery",
     "numbers",
