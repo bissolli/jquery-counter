@@ -1,6 +1,6 @@
 {
   "name": "jquery-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A jQuery plugin to count up a number with start on element visible feature",
   "main": "dist/jquery.counter.min.js",
   "tags": [
