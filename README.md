@@ -1,5 +1,5 @@
 # jQuery Counter
-A jQuery plugin to count up a number with start on element visible feature - [DOCS](https://bissolli.github.io/jquery-counter/)
+A jQuery plugin to count up a number with start on element visible feature
 
 [![npm](https://img.shields.io/npm/v/jquery-counter.svg)](https://www.npmjs.com/package/jquery-counter)
 [![npm](https://img.shields.io/npm/dt/jquery-counter.svg)](https://www.npmjs.com/package/jquery-counter)
@@ -30,8 +30,9 @@ require('jquery-counter');
 <span data-counter data-offset="100" data-duration="1000" data-delay="1000">400</span>
 ```
 Through data properties you can set the following parameters:
-| Prop | Type | Default | Note |
-|---|---|---|---|
+
+| Prop | Type | Default | Note
+|---|---|---|---
 | `offset` | `String` | 200 | Element top offset (in pixels) based on view top offset to start the animation
 | `duration` | `String` | 3000 | Time (in milliseconds) to count it up
 | `delay` | `String` | 200 | Delay (in milliseconds) to start the animation as per the element becomes visible
